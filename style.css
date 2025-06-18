@@ -4,7 +4,7 @@ body {
     height: 10000px;
     overflow-x: hidden;
 
-    background-image: url("mountains.jpg");
+    background-image: url("img/mountains.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
