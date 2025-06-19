@@ -20,17 +20,14 @@
   </header>
 
   <main>
-    <!-- Parallax sekcia -->
     <section class="hero">
       <div class="hero-text">
         <h1>Mountains</h1>
       </div>
     </section>
 
-    <!-- Plynulý prechod -->
     <div class="transition"></div>
 
-    <!-- Obsah / články -->
     <section class="content">
       <article class="post">
         <h2>Welcome to the Mountains</h2>
@@ -61,13 +58,5 @@
       </article>
     </section>
   </main>
-
-  <script>
-    // Parallax efekt
-    window.addEventListener("scroll", () => {
-      const scrollY = window.scrollY;
-      document.querySelector(".hero").style.backgroundPositionY = `${scrollY * -0.3}px`;
-    });
-  </script>
 </body>
 </html>
